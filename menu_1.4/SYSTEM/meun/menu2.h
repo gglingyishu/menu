@@ -3,8 +3,6 @@
 #include "stm32f1xx.h"
 #include "gg_menu.h"
   
-#include "menu1.h"
-#include "menu2.h"
 
 //typedef struct
 //{

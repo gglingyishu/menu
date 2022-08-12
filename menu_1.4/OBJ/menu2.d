@@ -57,5 +57,3 @@
 ..\obj\menu2.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h
 ..\obj\menu2.o: ..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h
 ..\obj\menu2.o: ..\SYSTEM\meun\menu2.h
-..\obj\menu2.o: ..\SYSTEM\meun\menu1.h
-..\obj\menu2.o: ..\SYSTEM\meun\menu2.h

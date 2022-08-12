@@ -173,7 +173,6 @@ void USART1_IRQHandler(void)
     	
 
     GG_MENU_SendKeySign(USART1->DR - 48);
-printf("usart %d\r\n",g_MENU_MainSta.KeyLastSignSta);
  
     	HAL_UART_IRQHandler(&UART1_Handler);	//调用HAL库中断处理公用函数
 	if((__HAL_UART_GET_FLAG(&UART1_Handler,UART_FLAG_RXNE)!=RESET))  //接收中断(接收到的数据必须是0x0d 0x0a结尾)

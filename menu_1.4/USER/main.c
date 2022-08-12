@@ -3,34 +3,27 @@
 #include "usart.h"
 #include "gg_menu.h"
 #include "menu1.h"
+#include "menu2.h"
 #include "gg_key.h"
 
-
-void Delay(__IO uint32_t nCount);
-
-void Delay(__IO uint32_t nCount)
-{
-  while(nCount--){}
-}
-void Key_Init(void);
-    
-
-
-
+/*  
+*    历程为实例，用串口模拟按键，进行两个界面的切换
+*    使用串口将信号通过该语句赋值GG_MENU_SendKeySign(USART1->DR - 48);
+*    达到切换menu1和menu2两个界面的效果   
+*    在各个界面按下时会调用Menu1Action这样的对应按键框架的功能函数（由界面系统自己切换）
+*
+*    ps:界面是移植在正点原子的历程，做了一个简单的实例，主要代码量体现在gg——menu.c和menu.1c的框架逻辑   
+*    框架推广中，后续有小项目被人使用在编写者同意的情况下会慢慢开源上来。
+*/
 GG_MENU_TypeDef  MENUMAIN;
 GG_MENUPAGE_TypeDef MENU1;
 GG_MENUPAGE_TypeDef MENU2;
-GG_KEYBROAD_TypeDef KEY1;
-extern GG_MENU_StateTypeDef g_MENU_MainSta;
 
 int main(void)
 {
-    int i;
     HAL_Init();                    	 			//初始化HAL库    
     Stm32_Clock_Init(RCC_PLL_MUL9);   			//设置时钟,72M
     uart_init(115200);
-    Key_Init();
-    GG_KEYBOARD_INIT(&KEY1,0xff);
     
     GG_MENU_Init(&MENUMAIN);
     GG_MENU1_Init(&MENU1); 
@@ -39,39 +32,11 @@ int main(void)
     MENU1.show(&MENU1);
 	//TIM3_Init(5000-1,7200-1); 
 	while(1)
-	{
+    {
+        GG_MENU_LastSignWork();
        
-        i=KEY1.getkeyvalue(&KEY1);
-        if(i>0)
-            printf("%d",i);
-      
-    
-            
-            GG_MENU_LastSignWork();
-       
-
 	}
     
 }
-
-
-void Key_Init(void)
-{
-    GPIO_InitTypeDef GPIO_Initure;
-    GPIO_Initure.Pin=GPIO_PIN_1|GPIO_PIN_2;			//PA9
-    GPIO_Initure.Mode=GPIO_MODE_INPUT;		//复用推挽输出
-    GPIO_Initure.Pull=GPIO_PULLUP;			//上拉
-    GPIO_Initure.Speed=GPIO_SPEED_FREQ_HIGH;//高速
-    HAL_GPIO_Init(GPIOA,&GPIO_Initure);	   	//初始化PA9
-    
-    
-    
-
-}
-
-
-
-
-
 
 

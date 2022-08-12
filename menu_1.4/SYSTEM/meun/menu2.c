@@ -69,7 +69,6 @@ static void GG_MenuSignChangeCallback(void)
     if(g_MENU_MainSta.KeyLastSignSta > 100)//ºóÌ¨ÐÅºÅ
         g_MENU_MainSta.KeyLastSignSta = g_MENU_MainSta.KeyLastSignSta % 100;
         
-    
 }
 
 void GG_MENU2_Init(GG_MENUPAGE_TypeDef  *MENUx)
@@ -111,6 +110,7 @@ static void GG_MENU_Close(GG_MENUPAGE_TypeDef  *MENUx)
 #ifdef BACKSTAGE_THREAD    
     GG_MENU_MenuStaUpdate(PAGE_ID, CLOSE);
 #endif
+    
 }
 
 static void GG_MENU_KeyUpdate(GG_MENUPAGE_TypeDef  *MENUx)
@@ -140,8 +140,7 @@ static void Menu2Action(void)
 {
     printf("2-222\r\n");  
     MENU2.hide(&MENU2);
-
-    
+ 
 } 
 
 static void Menu3Action(void)

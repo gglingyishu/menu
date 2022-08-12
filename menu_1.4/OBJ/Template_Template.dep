@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x62F4B8F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x62F5B229)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x62F34D5C)
 I (..\USER\stm32f1xx.h)(0x5D1623CA)
 I (..\USER\stm32f103xe.h)(0x5D1623CA)
@@ -59,9 +59,9 @@ I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5D10A076)
 I (..\SYSTEM\delay\delay.h)(0x5D808F12)
 I (..\SYSTEM\usart\usart.h)(0x5D808F12)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (..\SYSTEM\meun\gg_menu.h)(0x62F34D5C)
+I (..\SYSTEM\meun\gg_menu.h)(0x62F5B28B)
 I (..\SYSTEM\meun\menu1.h)(0x62DA4AC9)
-I (..\SYSTEM\meun\menu2.h)(0x62DA4AE5)
+I (..\SYSTEM\meun\menu2.h)(0x62F5B25E)
 I (..\SYSTEM\keyboard\gg_key.h)(0x62E385A9)
 F (.\stm32f1xx_hal_msp.c)(0x5CFE625F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\stm32f1xx_hal_msp.o --omf_browse ..\obj\stm32f1xx_hal_msp.crf --depend ..\obj\stm32f1xx_hal_msp.d)
 I (main.h)(0x5D808706)
@@ -2891,7 +2891,7 @@ I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usb.h)(0x5D138991)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pcd_ex.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5D10A076)
-F (..\SYSTEM\usart\usart.c)(0x62F34D5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+F (..\SYSTEM\usart\usart.c)(0x62F5AF65)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\SYSTEM\sys\sys.h)(0x62F34D5C)
 I (..\USER\stm32f1xx.h)(0x5D1623CA)
 I (..\USER\stm32f103xe.h)(0x5D1623CA)
@@ -2950,9 +2950,9 @@ I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5D10A076)
 I (..\SYSTEM\usart\usart.h)(0x5D808F12)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (..\SYSTEM\meun\gg_menu.h)(0x62F34D5C)
-F (..\SYSTEM\meun\gg_menu.c)(0x62F4B8F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\gg_menu.o --omf_browse ..\obj\gg_menu.crf --depend ..\obj\gg_menu.d)
-I (..\SYSTEM\meun\gg_menu.h)(0x62F34D5C)
+I (..\SYSTEM\meun\gg_menu.h)(0x62F5B28B)
+F (..\SYSTEM\meun\gg_menu.c)(0x62F5B121)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\gg_menu.o --omf_browse ..\obj\gg_menu.crf --depend ..\obj\gg_menu.d)
+I (..\SYSTEM\meun\gg_menu.h)(0x62F5B28B)
 I (..\USER\stm32f1xx.h)(0x5D1623CA)
 I (..\USER\stm32f103xe.h)(0x5D1623CA)
 I (..\CORE\core_cm3.h)(0x5D8085B0)
@@ -3009,7 +3009,7 @@ I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pcd_ex.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5D10A076)
 F (..\SYSTEM\meun\menu1.c)(0x62F34D5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\menu1.o --omf_browse ..\obj\menu1.crf --depend ..\obj\menu1.d)
-I (..\SYSTEM\meun\gg_menu.h)(0x62F34D5C)
+I (..\SYSTEM\meun\gg_menu.h)(0x62F5B28B)
 I (..\USER\stm32f1xx.h)(0x5D1623CA)
 I (..\USER\stm32f103xe.h)(0x5D1623CA)
 I (..\CORE\core_cm3.h)(0x5D8085B0)
@@ -3066,9 +3066,9 @@ I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pcd_ex.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5D10A076)
 I (..\SYSTEM\meun\menu1.h)(0x62DA4AC9)
-I (..\SYSTEM\meun\menu2.h)(0x62DA4AE5)
+I (..\SYSTEM\meun\menu2.h)(0x62F5B25E)
 F (..\SYSTEM\meun\menu2.c)(0x62F34D5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\menu2.o --omf_browse ..\obj\menu2.crf --depend ..\obj\menu2.d)
-I (..\SYSTEM\meun\gg_menu.h)(0x62F34D5C)
+I (..\SYSTEM\meun\gg_menu.h)(0x62F5B28B)
 I (..\USER\stm32f1xx.h)(0x5D1623CA)
 I (..\USER\stm32f103xe.h)(0x5D1623CA)
 I (..\CORE\core_cm3.h)(0x5D8085B0)
@@ -3124,8 +3124,7 @@ I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usb.h)(0x5D138991)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pcd_ex.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h)(0x5D10A084)
 I (..\HALLIB\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5D10A076)
-I (..\SYSTEM\meun\menu2.h)(0x62DA4AE5)
-I (..\SYSTEM\meun\menu1.h)(0x62DA4AC9)
+I (..\SYSTEM\meun\menu2.h)(0x62F5B25E)
 F (..\SYSTEM\keyboard\gg_key.c)(0x62E387B7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HALLIB\STM32F1xx_HAL_Driver\Inc -I..\SYSTEM\meun -I..\SYSTEM\keyboard-I D:\BaiduNetdiskDownload\menu_1.30\menu_1.4\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\obj\gg_key.o --omf_browse ..\obj\gg_key.crf --depend ..\obj\gg_key.d)
 I (..\SYSTEM\keyboard\gg_key.h)(0x62E385A9)
 I (..\USER\stm32f1xx.h)(0x5D1623CA)
